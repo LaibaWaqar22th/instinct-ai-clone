@@ -1,0 +1,14 @@
+.navbar-expand-sm{
+box-shadow: 0px 2px 5px #cfcccc;
+}
+.navbar-nav>.dropdown-toggle {
+    font-weight: 500;
+}
+
+.navbar-nav>.dropdown-toggle:hover {
+    background: none;
+}
+
+.navbar-nav>.dropdown-toggle:focus {
+    box-shadow: none;
+}

@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'instinct-ai-clone';
+  route = ""
+
+  addRoute(value) {
+    this.route = value
+    console.log(this.route)
+  }
+  constructor() { }
+
 }
+

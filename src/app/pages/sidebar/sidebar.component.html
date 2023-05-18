@@ -1,0 +1,14 @@
+<div class="container m-0 p-2 d-flex flex-column justify-content-between">
+
+    <ul class="d-flex flex-column align-items-center navbar-nav text-white">
+        <li class="nav-link border-secondary border-bottom mb-4 small p-2"><i class="bi-grid"></i></li>
+        <li *ngFor="let item of sideBarItems" class="nav-link small p-2"><i class={{item}}></i></li>
+        <li class="nav-link small"><span class="border border-white p-1 pl-2 pr-2 small">AI</span></li>
+    </ul>
+
+    <ul class="navbar-nav d-flex flex-column justify-content-end align-items-center text-white">
+        <li class="nav-link small"><i class="bi-gear"></i></li>
+        <li class="nav-link"><i class="bi-file-person-fill"></i></li>
+    </ul>
+
+</div>

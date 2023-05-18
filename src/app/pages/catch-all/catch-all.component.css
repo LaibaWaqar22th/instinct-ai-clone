@@ -1,0 +1,59 @@
+.navbar-nav h5 {
+    font-weight: bold;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-around;
+}
+
+.container-fluid select {
+    width: 40%;
+}
+
+.container-fluid label {
+    font-weight: bold;
+}
+
+.container-fluid select:focus {
+    outline: 1px solid #aca9a9;
+}
+
+.container-fluid textarea:focus {
+    outline: none;
+}
+
+.container-fluid textarea {
+    height: 8vh;
+}
+
+.container-fluid textarea::placeholder {
+    font-size: small;
+}
+
+.container-fluid p {
+    font-size: small;
+}
+
+.container-fluid select>option {
+    color: #777;
+
+}
+
+.container-fluid>.d-flex>select {
+    color: #777;
+}
+
+.container-fluid>select {
+    font-weight: 500;
+}
+
+.container-fluid>.d-flex button {
+    background: #f8f9fa;
+    color: #555151;
+    border: none;
+    font-size: small;
+    width: 30%;
+}

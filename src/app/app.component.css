@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.my-layout {
+    max-height: 87.5vh;
+    overflow: auto;
+}
+
+.my-layout::-webkit-scrollbar {
+    width: 2vh;
+    background: transparent;
+}
+

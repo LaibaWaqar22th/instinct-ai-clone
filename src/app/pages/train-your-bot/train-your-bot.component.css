@@ -1,0 +1,41 @@
+.navbar-nav h5 {
+    font-weight: bold;
+}
+
+.navbar-nav .btn {
+    background: #089270;
+    width: 20vh;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav .btn:hover {
+    opacity: 0.9;
+}
+
+.col-sm h6 {
+    font-weight: bold;
+}
+
+.col-sm select {
+    font-weight: 500;
+}
+
+.col-sm select:focus {
+    outline: none;
+}
+
+.my-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-48%,-44%);
+    min-width:fit-content;
+    width: 97vw;
+    height:87.5vh ;
+    background: hsla(0, 1%, 15%, 0.281);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

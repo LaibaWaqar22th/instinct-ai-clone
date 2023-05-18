@@ -1,0 +1,93 @@
+.container {
+    width: 50vw;
+}
+
+.navbar-nav h6 {
+    font-weight: bold;
+}
+
+.navbar-nav input::placeholder {
+    color: #06060c;
+    font-weight: bold;
+}
+
+.btn-outline-secondary:hover {
+    background: lightgrey;
+}
+
+input {
+    height: 5vh;
+}
+
+.container-fluid select {
+    width: 40%;
+}
+
+p {
+    font-size: small;
+}
+
+.d-flex p {
+    font-size: x-small;
+    height: 5vh;
+}
+
+.container-fluid h6,
+.container-fluid label {
+    font-weight: bold;
+}
+
+input:focus {
+    outline: none;
+}
+
+.container-fluid textarea:focus {
+    outline: none;
+}
+
+.container-fluid textarea {
+    height: 7vh;
+}
+
+.textArea textarea,
+.textArea p {
+    width: 90%;
+}
+
+.textArea p {
+    height: 4vh;
+}
+
+.container-fluid textarea::placeholder,
+input::placeholder {
+    font-size: small;
+}
+
+.container-fluid input::placeholder {
+    font-weight: 500;
+
+}
+
+.container-fluid p {
+    font-size: small;
+}
+
+.container-fluid>.d-flex button {
+    background: #f8f9fa;
+    color: #555151;
+    border: none;
+    font-size: x-small;
+    width: 22%;
+}
+
+.d-flex i {
+    font-size: small;
+}
+
+.myBtn {
+    background: #089270;
+    color: #ffffff;
+    font-size: small;
+    padding: 0.5vh 5vh;
+    border-radius: 0.1vh;
+}

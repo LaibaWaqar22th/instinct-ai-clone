@@ -1,0 +1,27 @@
+.navbar-nav h5 {
+    font-weight: bold;
+}
+
+.container-fluid>input:focus {
+    outline: 0.1vh solid #777;
+}
+
+.container-fluid>input::placeholder {
+    color: #777;
+}
+
+.table>thead {
+    background: #e8fcfc;
+}
+
+tbody :nth-child(odd) .accuracy {
+    color: #6f9452;
+}
+
+tbody :nth-child(2) .accuracy {
+    color: #af0c0c;
+}
+
+tbody :nth-child(4) .accuracy {
+    color: #cfbe20;
+}

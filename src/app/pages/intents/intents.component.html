@@ -1,0 +1,43 @@
+<div class="container">
+
+    <div class="navbar-nav w-75">
+        <h5 class="h5 mb-1">Intents(20)</h5>
+        <p class="text-muted small">
+            Discover which intents are most regularly queried and gain a deeper understanding into the interests of your
+            users.
+        </p>
+    </div>
+
+    <div class="container-fluid border w-75 ml-0 p-0 pb-4">
+        <div class="d-flex justify-content-between align-items-center">
+            <input type="text" class="border fa w-50 m-3 p-2" placeholder="&#xf002; search intent or utterance">
+            <button class="btn btn-secondary pl-0 pr-0 h-75 m-3" (click)="newIntent()"><i class="bi-plus"></i>&nbsp;Add
+                intent</button>
+        </div>
+
+        <h6 class="h6 border border-left-0 border-right-0 p-3 pl-4">Intent</h6>
+
+        <ul class="navbar-nav m-3">
+            <li *ngFor="let intent of intentList;let i=index" class="nav-item">
+                <div class="d-flex justify-content-between align-items-center border p-2 mb-2">
+                    <h6 class="w-100 mb-0" (click)=setDisplay(i)>{{intent.name}}</h6>
+                    <i class="bi-three-dots-vertical"></i>
+                </div>
+
+                <div [ngStyle]="{display:intent.display}">
+                    <ul class="navbar-nav p-2">
+                        <li *ngFor="let res of intent.subList" class="nav-item mb-2">
+                            {{res}}
+                        </li>
+                    </ul>
+                    <button class="btn btn-secondary ml-2 mb-3"><i class="bi-plus"></i>&nbsp;Add another
+                        variation</button>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+    <div class="my-container" *ngIf="createIntent">
+        <app-new-intent></app-new-intent>
+    </div>
+</div>
