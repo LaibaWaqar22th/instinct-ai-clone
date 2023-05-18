@@ -15,7 +15,7 @@ import { NewIntentComponent } from './pages/new-intent/new-intent.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const appRoutes: Routes = [
-  // {path:'',component:AppComponent},
+  {path:'',component:AppComponent},
   { path: 'train-your-bot', component: TrainYourBotComponent },
   { path: 'intents', component: IntentsComponent },
   { path: 'catch-all', component: CatchAllComponent },
