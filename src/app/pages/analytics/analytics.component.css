@@ -2,6 +2,10 @@
     font-weight: bold;
 }
 
+.container-fluid{
+    min-width: max-content;
+}
+
 .container-fluid>input:focus {
     outline: 0.1vh solid #777;
 }
