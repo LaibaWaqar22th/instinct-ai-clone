@@ -11,7 +11,7 @@
     <div class="container-fluid border w-75 ml-0 p-0">
         <input type="text" class="border fa w-50 m-3 p-2" placeholder="&#xf002; search intent or utterance">
 
-        <table class="table table-borderless">
+        <table class="table table-borderless small">
             <thead class="border border-left-0 border-right-0">
                 <tr>
                     <th class="pl-3">Intent</th>
@@ -19,7 +19,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr *ngFor="let data of tableData" class="h6 pl-3">
+                <tr *ngFor="let data of tableData" class="h6 pl-3 small">
                     <td>{{data.intent}}</td>
                     <td>{{data.messages}}</td>
                     <td>{{data.importance}}</td>
