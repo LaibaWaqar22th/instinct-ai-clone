@@ -1,10 +1,10 @@
 <div class="container bg-light mt-0 pt-2">
     <div class="navbar">
         <ul class="navbar-nav  w-100">
-            <li *ngFor="let item of list" class="nav-item border-bottom" (click)=select(item) id={{item.id}}
+            <li *ngFor="let item of list" class="nav-item border-bottom outline-0" (click)=select(item) id={{item.id}}
                 routerLink={{item.id}}>
-                <div class="nav-link w-100 p-3" [ngClass]="isActive(item.title) ? 'addActive':'removeActive'">
-                    <button class="text-dark btn btn-muted w-100 text-left pl-0 pb-0 pt-0">{{item.title}}</button>
+                <div class="nav-link w-100 p-3 outline-0" [ngClass]="isActive(item.title) ? 'addActive':'removeActive'">
+                    <button class="text-dark btn btn-muted outline-0 w-100 text-left pl-0 pb-0 pt-0">{{item.title}}</button>
                     <span class="text-muted">{{item.text}}</span>
                 </div>
             </li>
